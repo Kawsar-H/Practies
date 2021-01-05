@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Redressed', cursive;
+    width: auto;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    height: 550px;
+
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.heighlight{
+    color: orange;
+}
+.half-width{
+    width: 35%;
+    margin: 5%;
+    padding: 2%;
+    float: left;
+    
+    
+    
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    border: 7px solid;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(168, 122, 255), tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    
+}
+.middle-background{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    color:dimgray;
+}
+.box-area{
+    box-shadow: 10px 10px 40px gold;
+    text-align: center;
+    background-color:white;
+    border-radius: 5px;
+    height: 40%;
+    
+}
+
+
+
+
+.expereinces{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expereince-level{
+    text-align: center;
+    
+    
+    
+}
+footer{
+    background-color: orange;
+    height: 50%;
+}
+.pera{
+    text-align: center;
+    padding: 20px;
+    color:white;
+}
+.header-section{
+    background-color: orange;
+    height: 54px;
+  
+    
+}
+.logo{
+    width:30%;
+    float: left;
+    font-weight: 700;
+   
+    text-align: center;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.logo a:hover{
+    color: rgb(9, 255, 0);
+}
+.menu{
+    width: 50%;
+    float: left;
+    margin:0 auto ;
+    text-align: right;
+    padding: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+    font-weight: 700;
+
+   
+}
+.menu ul{
+    margin: 10px;
+
+    
+}
+.menu ul li{display: inline;
+    border-right: 1px solid white;
+    background-color: orchid;
+    
+    
+
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px 30px;
+}
+.menu ul li:hover{
+    background-color: violet;
+}
+.new-line{
+    border:2px dashed orange;
+  
+    width: 100%;
+}
